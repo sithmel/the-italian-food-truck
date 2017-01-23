@@ -34,7 +34,7 @@ const handlebar_options = {
 gulp.task('scss', () => gulp.src(path.scss)
   .pipe(sass({
     outputStyle: 'compressed',
-    importer: nodeSassImporter
+    importer: nodeSassImporter()
   }).on('error', sass.logError))
   .pipe(gulp.dest(dest)));
 
