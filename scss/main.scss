@@ -10,6 +10,12 @@ $green-italy: #9a947f;
 $white-italy: #ffffff;
 $red-italy: #ce2b37;
 
+$orange: #f48116;
+$dark-gray: #262d35;
+$yellow: #f7d74a;
+$light-orange: #f3cda9;
+$light-yellow: #faf4d8;
+
 // @font-face {
 //     font-family: 'open_sansbold_italic';
 //     src: url('OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
@@ -20,6 +26,6 @@ $red-italy: #ce2b37;
 //     font-style: normal;
 // }
 
-h2 {
-  color: blue;
+.panel {
+  background-color: $dark-gray;
 }

@@ -1,22 +1,38 @@
 {
   "meta": {
     "title": "The Italian food truck",
-    "description": "",
-    "keywords": ""
+    "description": "Original Italian food on the move",
+    "keywords": "italian,food,streetfood,traditional,fresh,genuine,van,truck,reading"
   },
   "contacts": {
-    "email": "",
-    "facebook_id": "",
-    "twitter_id": "",
-    "phone": ""
+    "email": "theitalianfoodtruck@hotmail.com",
+    "facebook_id": "TheItalianFoodTruck",
+    "phone": "07957319307"
   },
   "google_analytics": "UA-XXXXX-X",
   "nav": [
     {
-      "id": "",
-      "name": "",
-      "url": "",
-      "title": ""
+      "id": "home",
+      "url": "/",
+      "title": "Home"
+    },
+    {
+      "id": "menu",
+      "url": "/menu",
+      "title": "Menu"
+    },
+    {
+      "id": "party",
+      "url": "/parties",
+      "title": "Parties"
+    },
+    {
+      "id": "findus",
+      "url": "/find-us",
+      "title": "Find us"
     }
-  ]
+  ],
+  "overrides": {
+    
+  }
 }
