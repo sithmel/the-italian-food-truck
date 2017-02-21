@@ -4,6 +4,10 @@
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_tab-focus';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_image';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/_grid';
 
 $green-italy: #9a947f;
@@ -25,7 +29,57 @@ $light-yellow: #faf4d8;
 //     font-weight: normal;
 //     font-style: normal;
 // }
+body {
+  margin: 0;
+  background: url(../img/bg/bg-sandwiches.jpg) no-repeat center;
+  background-size: cover;
+}
 
 .panel {
+  padding: 20px;
+}
+
+.panel--spacing{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.panel--orange {
+  background-color: $orange;
+  color: $dark-gray;
+}
+
+.panel--yellow {
+  background-color: $yellow;
+  color: $dark-gray;
+}
+
+.panel--light-yellow {
+  background-color: $light-yellow;
+  color: $dark-gray;
+}
+
+.panel--light-orange {
+  background-color: $light-orange;
+  color: $dark-gray;
+}
+
+.panel--dark-yellow {
   background-color: $dark-gray;
+  color: $light-yellow;
+}
+
+.panel--dark-orange {
+  background-color: $dark-gray;
+  color: $orange;
+}
+
+.logo-wrapper {
+  margin: 6px;
+  display: inline-block;
+  vertical-align:: middle;
+}
+
+.text-center {
+  text-align: center;
 }
