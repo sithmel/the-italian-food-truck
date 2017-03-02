@@ -62,6 +62,6 @@ gulp.task('default', [
   'build:js'
 ]);
 
-gulp.task('watch', () => gulp.watch(Object.values(paths), [
+gulp.task('watch', () => gulp.watch(Object.keys(paths).map((k) => paths[k]), [
   'default'
 ]));

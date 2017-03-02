@@ -1,6 +1,7 @@
 @import 'node_modules/normalize.css/normalize';
 
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/_variables';
+$container-lg: 800px;
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid';
@@ -9,6 +10,8 @@
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_image';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/_grid';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities';
 
 $green-italy: #9a947f;
 $white-italy: #ffffff;
@@ -36,12 +39,20 @@ body {
 }
 
 .panel {
+  box-shadow: 1px 3px 10px 0px #000;
+}
+
+.vertical-spacing{
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.text-padding {
   padding: 20px;
 }
 
-.panel--spacing{
-  margin-top: 20px;
-  margin-bottom: 20px;
+.block-center {
+  margin: auto;
 }
 
 .panel--orange {
