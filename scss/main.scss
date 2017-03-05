@@ -2,6 +2,8 @@
 
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/_variables';
 $container-lg: 800px;
+$font-size-base: 16px;
+$brand-primary: #f48116;
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid';
@@ -43,8 +45,8 @@ body {
 }
 
 .vertical-spacing{
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .text-padding {
@@ -93,4 +95,36 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+// navigation
+.main-nav {
+  text-align: center;
+  margin-top: -12px;
+}
+
+.main-nav__item a {
+  display: inline-block;
+  padding: 10px 1px;
+  max-width: 168px;
+  width: 80%;
+  margin: 5px 0px;
+}
+
+.main-nav__item:nth-child(2n+0) a{
+  transform: rotate(-5deg);
+}
+
+.main-nav__item:nth-child(2n+1) a{
+  transform: rotate(5deg);
+}
+
+//small-nav
+.small-nav ul{
+  padding-left: 0;
+}
+
+.small-nav li{
+  display: inline-block;
+  font-size: 1rem;
 }
