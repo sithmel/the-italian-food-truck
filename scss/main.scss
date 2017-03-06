@@ -3,7 +3,8 @@
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/_variables';
 $container-lg: 800px;
 $font-size-base: 16px;
-$brand-primary: #f48116;
+//$brand-primary: #f48116;
+//$link-color:  #f48116;
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid';
@@ -127,4 +128,9 @@ body {
 .small-nav li{
   display: inline-block;
   font-size: 1rem;
+}
+
+// typography
+a, a:hover {
+  color: $orange
 }

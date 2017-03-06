@@ -33,6 +33,223 @@
     }
   ],
   "overrides": {
-    
-  }
+
+  },
+  "menu": [
+    {
+      "title": "Panini",
+      "description": "Filled with your choice of:",
+      "items": [
+        {
+          "title": "1) Parmiggiana",
+          "description": "Aubergines in a tomato sauce with Parmesan and mozzarella slices",
+          "vegetarian": true,
+          "price": "£ 4.00"
+        },
+        {
+          "title": "2) Napoli",
+          "description": "Grilled italian sausage and mushrooms",
+          "vegetarian": false,
+          "price": "£ 4.00"
+        },
+        {
+          "title": "3) Tricolore",
+          "description": "Fresh sliced mozzarella,tomatoes and basil",
+          "vegetarian": true,
+          "price": "£ 3.00"
+        },
+        {
+          "title": "4) Boscaiola",
+          "description": "Sauted mushrooms in a chesee cream of dolcelatte and double cream",
+          "vegetarian": true,
+          "price": "£ 3.00"
+        },
+        {
+          "title": "5) Prosciutto",
+          "description": "Cooked ham on a bed of sliced mozzarella and wild rocket",
+          "vegetarian": false,
+          "price": "£ 4.00"
+        },
+        {
+          "title": "6) Cotoletta",
+          "description": "Breast fillet dredged in eggs and bredcrumb,lettuce and tomatoes",
+          "vegetarian": false,
+          "price": "£ 4.00"
+        },
+        {
+          "title": "7) Salmon",
+          "description": "Smoked salmon topped with red peppers,lettuce and sun dried tomatoes",
+          "vegetarian": false,
+          "price": "£ 4.00"
+        },
+        {
+          "title": "8) Meat balls",
+          "description": "Mince beef in tomato sauce,with garlic,parsley and Parmesan",
+          "vegetarian": false,
+          "price": "£ 4.00"
+        }
+      ]
+    },
+    {
+      "title": "Calzoni ripieni",
+      "description": "Made out of flour, yeast, salt and deep fried",
+      "items": [
+        {
+          "title": "9) Cheese",
+          "description": "Cheese, tomato sauce, mozzarella",
+          "vegetarian": true,
+          "price": "£ 3.00"
+        },
+        {
+          "title": "10) Mushy",
+          "description": "Mushrooms, mozzarella, mix cheese",
+          "vegetarian": true,
+          "price": "£ 3.00"
+        },
+        {
+          "title": "11) Salami",
+          "description": "Salame, cheese, mozzarella, tomato sauce",
+          "vegetarian": false,
+          "price": "£ 3.00"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "title": "12) Arancini",
+          "description": "Rice balls stuffed with meat, peas, mozzarella, tomato sauce, dredged in eggs and breadcrumbs and fried",
+          "vegetarian": false,
+          "price": "£ 2.50"
+        },
+        {
+          "title": "13) Panino Napoletano",
+          "description": "Basic pizza dough (flour, yeast, salt) filled with sweet and spicy cheese, bacon. Oven baked",
+          "vegetarian": false,
+          "price": "£ 3.00"
+        },
+        {
+          "title": "14) Montanara",
+          "description": "Basic fried pizza dough (flour, yeast, salt) topped with tomato sauce, mozzarella and basil",
+          "vegetarian": true,
+          "price": "£ 1.50"
+        },
+        {
+          "title": "15) Frittatina",
+          "description": "Pasta stuffed with bacon, mozzarella, besciamella coated with breadcrumbs and fried",
+          "vegetarian": false,
+          "price": "£ 2.50"
+        }
+      ]
+    },
+    {
+      "title": "Pasta",
+      "items": [
+        {
+          "title": "16) Penne alla Genovese",
+          "description": "Pasta penne, onion, tomato sauce and parmesan.",
+          "vegetarian": true,
+          "price": "£ 3.50"
+        },
+        {
+          "title": "17) Penne alla Bolognese",
+          "description": "Pasta penne, mix meat, carrots, celery, onion, tomato and parmesan.",
+          "vegetarian": false,
+          "price": "£ 4.50"
+        },
+        {
+          "title": "18) Penne with mushrooms",
+          "description": "Pasta penne, mushrooms, garlic, cream and parmesan.",
+          "vegetarian": true,
+          "price": "£ 4.00"
+        },
+        {
+          "title": "19) Penne with meatballs",
+          "description": "Pasta penne, meatballs, parmesan and tomato sauce.",
+          "vegetarian": false,
+          "price": "£ 4.50"
+        },
+        {
+          "title": "20) Rigatoni spicy",
+          "description": "Pasta rigatoni, n'duja, hot tomato sauce and parmesan.",
+          "vegetarian": false,
+          "price": "£ 3.50"
+        },
+        {
+          "title": "21) Rigatoni four cheese",
+          "description": "Pasta rigatoni, sauteed in a cheese cream of dolcelatte and double cream, mozzarella and parmesan.",
+          "vegetarian": true,
+          "price": "£ 4.00"
+        },
+        {
+          "title": "22) Rigatoni with salmon",
+          "description": "Pasta rigatoni, smoked salmon, onion, cream and parmesan.",
+          "vegetarian": false,
+          "price": "£ 4.50"
+        },
+        {
+          "title": "23) Gnocchi with tomato",
+          "description": "Pasta gnocchi, tomato sauce and parmesan.",
+          "vegetarian": true,
+          "price": "£ 4.00"
+        },
+        {
+          "title": "24) Gnocchi with cheese",
+          "description": " Pasta gnocchi, sauteed in a cheese cream of dolcelatte and double cream, mozzarella and parmesan",
+          "vegetarian": true,
+          "price": "£ 4.50"
+        }
+      ]
+    },
+    {
+      "title": "Hot drinks",
+      "items": [
+        {
+          "title": "Coffee espresso - long or short",
+          "price": "£ 1.20"
+        },
+        {
+          "title": "Cappuccino",
+          "price": "£ 1.50"
+        },
+        {
+          "title": "Traditional Tea",
+          "price": "£ 0.80"
+        }
+      ]
+    },
+    {
+      "title": "Cold drinks",
+      "items": [
+        {
+          "title": "Coca Cola",
+          "price": "£ 0.80"
+        },
+        {
+          "title": "Diet Coke",
+          "price": "£ 0.80"
+        },
+        {
+          "title": "Tango Orange",
+          "price": "£ 0.80"
+        },
+        {
+          "title": "Aranciata",
+          "price": "£ 0.80"
+        },
+        {
+          "title": "7 up",
+          "price": "£ 0.80"
+        },
+        {
+          "title": "Still water",
+          "price": "£ 0.80"
+        },
+        {
+          "title": "Sparkling water",
+          "price": "£ 0.80"
+        }
+      ]
+    }
+  ]
 }
