@@ -15,6 +15,7 @@ $font-size-base: 16px;
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/_grid';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/_media';
 
 $green-italy: #9a947f;
 $white-italy: #ffffff;
@@ -134,3 +135,28 @@ body {
 a, a:hover {
   color: $orange
 }
+
+// menu-card
+.menu-card {
+  height: 85px;
+  padding: 5px;
+  margin: 15px 0;
+}
+
+.menu-card__picture a {
+  width: 64px;
+  display: block;
+}
+
+.menu-card__picture img {
+  margin: auto;
+}
+
+.menu-card__desc {
+  font-size: 14px;
+}
+	// …
+// white-space: nowrap;
+// overflow: hidden;
+// text-overflow: ellipsis;
+//
