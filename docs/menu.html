@@ -12,12 +12,22 @@
 
         <link rel="stylesheet" href="main.css">
         <script async src="main.js"></script>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.8";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
     </head>
     <body>
       <header class="panel panel--dark-yellow">
         <div class="text-center text-padding">
-          <span class="logo-wrapper"><img class="img-responsive" width="583" height="75" src="../img/logo.svg" /></span>
-          <span class="logo-wrapper"><img class="hidden-xs" width="128" height="72" src="../img/van.svg" /></span>
+          <a href="index.html">
+            <span class="logo-wrapper"><img class="img-responsive" width="583" height="75" src="../img/logo.svg" /></span>
+            <span class="logo-wrapper"><img class="hidden-xs" width="128" height="72" src="../img/van.svg" /></span>
+          </a>
         </div>
       </header>
       <div class="container">
@@ -39,7 +49,7 @@
   <h4>Panini</h4>
   <p>Filled with your choice of:</p>
   <div class="col-xs-12 col-sm-4">
-    <div class="media menu-card">
+    <div class="media menu-card menu-card__vegetarian">
       <div class="media-left menu-card__picture">
         <a href="#">
           <img class="media-object" src="img/food/small/panini.jpg" alt="Parmigiana">
@@ -50,6 +60,7 @@
         <div class="menu-card__desc">Aubergines in a tomato sauce with Parmesan…</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 4.00</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -63,9 +74,10 @@
         <div class="menu-card__desc">Grilled italian sausage and mushrooms</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 4.00</div>
   </div>
   <div class="col-xs-12 col-sm-4">
-    <div class="media menu-card">
+    <div class="media menu-card menu-card__vegetarian">
       <div class="media-left menu-card__picture">
         <a href="#">
           <img class="media-object" src="img/food/small/panini.jpg" alt="Tricolore">
@@ -73,12 +85,13 @@
       </div>
       <div class="media-body">
         <h4 class="media-heading">3) Tricolore</h4>
-        <div class="menu-card__desc">Fresh sliced mozzarella,tomatoes and basil</div>
+        <div class="menu-card__desc">Fresh sliced mozzarella, tomatoes and basil</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 3.00</div>
   </div>
   <div class="col-xs-12 col-sm-4">
-    <div class="media menu-card">
+    <div class="media menu-card menu-card__vegetarian">
       <div class="media-left menu-card__picture">
         <a href="#">
           <img class="media-object" src="img/food/small/panini.jpg" alt="Boscaiola">
@@ -89,6 +102,7 @@
         <div class="menu-card__desc">Sauted mushrooms in a chesee cream of dolcelatte …</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 3.00</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -102,6 +116,7 @@
         <div class="menu-card__desc">Cooked ham on a bed of sliced mozzarella…</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 4.00</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -115,6 +130,7 @@
         <div class="menu-card__desc">Breast fillet dredged in eggs and…</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 4.00</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -128,6 +144,7 @@
         <div class="menu-card__desc">Smoked salmon topped with red peppers…</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 4.00</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -141,13 +158,14 @@
         <div class="menu-card__desc">Mince beef in tomato sauce, with garlic, parsley…</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 4.00</div>
   </div>
 </div>
 <div class="row vertical-spacing panel panel--light-yellow text-padding">
   <h4>Calzoni ripieni</h4>
   <p>Made out of flour, yeast, salt and deep fried</p>
   <div class="col-xs-12 col-sm-4">
-    <div class="media menu-card">
+    <div class="media menu-card menu-card__vegetarian">
       <div class="media-left menu-card__picture">
         <a href="#">
           <img class="media-object" src="img/food/small/calzoni.jpg" alt="Cheese">
@@ -158,9 +176,10 @@
         <div class="menu-card__desc">Cheese, tomato sauce, mozzarella</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 3.00</div>
   </div>
   <div class="col-xs-12 col-sm-4">
-    <div class="media menu-card">
+    <div class="media menu-card menu-card__vegetarian">
       <div class="media-left menu-card__picture">
         <a href="#">
           <img class="media-object" src="img/food/small/calzoni.jpg" alt="Mushy">
@@ -171,6 +190,7 @@
         <div class="menu-card__desc">Mushrooms, mozzarella, mix cheese</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 3.00</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -184,6 +204,7 @@
         <div class="menu-card__desc">Salame, cheese, mozzarella, tomato sauce</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 3.00</div>
   </div>
 </div>
 <div class="row vertical-spacing panel panel--light-yellow text-padding">
@@ -201,6 +222,7 @@
         <div class="menu-card__desc">Rice balls stuffed with meat, peas, mozzarella, tomato sauce, dredged in eggs and breadcrumbs and fried</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 2.50</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -214,9 +236,10 @@
         <div class="menu-card__desc">Basic pizza dough (flour, yeast, salt) filled with sweet and spicy cheese, bacon. Oven baked</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 3.00</div>
   </div>
   <div class="col-xs-12 col-sm-4">
-    <div class="media menu-card">
+    <div class="media menu-card menu-card__vegetarian">
       <div class="media-left menu-card__picture">
         <a href="#">
           <img class="media-object" src="img/food/small/montanara.jpg" alt="Montanara">
@@ -227,6 +250,7 @@
         <div class="menu-card__desc">Basic fried pizza dough (flour, yeast, salt) topped with tomato sauce, mozzarella and basil</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 1.50</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -240,13 +264,14 @@
         <div class="menu-card__desc">Pasta stuffed with bacon, mozzarella, besciamella coated with breadcrumbs and fried</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 2.50</div>
   </div>
 </div>
 <div class="row vertical-spacing panel panel--light-yellow text-padding">
   <h4>Pasta</h4>
   <p></p>
   <div class="col-xs-12 col-sm-4">
-    <div class="media menu-card">
+    <div class="media menu-card menu-card__vegetarian">
       <div class="media-left menu-card__picture">
         <a href="#">
           <img class="media-object" src="img/food/small/penne-genovese.jpg" alt="Penne alla Genovese">
@@ -257,6 +282,7 @@
         <div class="menu-card__desc">Pasta penne, onion, tomato sauce and parmesan.</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 3.50</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -270,9 +296,10 @@
         <div class="menu-card__desc">Pasta penne, mix meat, carrots, celery, onion, tomato and parmesan.</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 4.50</div>
   </div>
   <div class="col-xs-12 col-sm-4">
-    <div class="media menu-card">
+    <div class="media menu-card menu-card__vegetarian">
       <div class="media-left menu-card__picture">
         <a href="#">
           <img class="media-object" src="img/food/small/penne-mushrooms.jpg" alt="Penne with mushrooms">
@@ -283,6 +310,7 @@
         <div class="menu-card__desc">Pasta penne, mushrooms, garlic, cream and parmesan.</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 4.00</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -296,6 +324,7 @@
         <div class="menu-card__desc">Pasta penne, meatballs, parmesan and tomato sauce.</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 4.50</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -309,9 +338,10 @@
         <div class="menu-card__desc">Pasta rigatoni, n&#x27;duja, hot tomato sauce and parmesan.</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 3.50</div>
   </div>
   <div class="col-xs-12 col-sm-4">
-    <div class="media menu-card">
+    <div class="media menu-card menu-card__vegetarian">
       <div class="media-left menu-card__picture">
         <a href="#">
           <img class="media-object" src="img/food/small/rigatoni-4-cheese.jpg" alt="Rigatoni four cheese">
@@ -322,6 +352,7 @@
         <div class="menu-card__desc">Pasta rigatoni, sauteed in a cheese cream of dolcelatte and double cream, mozzarella and parmesan.</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 4.00</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -335,9 +366,10 @@
         <div class="menu-card__desc">Pasta rigatoni, smoked salmon, onion, cream and parmesan.</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 4.50</div>
   </div>
   <div class="col-xs-12 col-sm-4">
-    <div class="media menu-card">
+    <div class="media menu-card menu-card__vegetarian">
       <div class="media-left menu-card__picture">
         <a href="#">
           <img class="media-object" src="img/food/small/gnocchi-di-patate-al-pomodoro.jpg" alt="Gnocchi with tomato">
@@ -348,9 +380,10 @@
         <div class="menu-card__desc">Pasta gnocchi, tomato sauce and parmesan.</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 4.00</div>
   </div>
   <div class="col-xs-12 col-sm-4">
-    <div class="media menu-card">
+    <div class="media menu-card menu-card__vegetarian">
       <div class="media-left menu-card__picture">
         <a href="#">
           <img class="media-object" src="img/food/small/gnocchi-formaggi.jpg" alt="Gnocchi with cheese">
@@ -361,6 +394,7 @@
         <div class="menu-card__desc">Pasta gnocchi, sauteed in a cheese cream of dolcelatte and double cream, mozzarella and parmesan</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 4.50</div>
   </div>
 </div>
 <div class="row vertical-spacing panel panel--light-yellow text-padding">
@@ -378,6 +412,7 @@
         <div class="menu-card__desc"></div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 1.20</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -391,6 +426,7 @@
         <div class="menu-card__desc"></div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 1.50</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -404,6 +440,7 @@
         <div class="menu-card__desc"></div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 0.80</div>
   </div>
 </div>
 <div class="row vertical-spacing panel panel--light-yellow text-padding">
@@ -421,6 +458,7 @@
         <div class="menu-card__desc"></div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 0.80</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -434,6 +472,7 @@
         <div class="menu-card__desc"></div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 0.80</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -447,6 +486,7 @@
         <div class="menu-card__desc"></div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 0.80</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -460,6 +500,7 @@
         <div class="menu-card__desc"></div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 0.80</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -473,6 +514,7 @@
         <div class="menu-card__desc"></div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 0.80</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -486,6 +528,7 @@
         <div class="menu-card__desc"></div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 0.80</div>
   </div>
   <div class="col-xs-12 col-sm-4">
     <div class="media menu-card">
@@ -499,13 +542,14 @@
         <div class="menu-card__desc"></div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">£ 0.80</div>
   </div>
 </div>
       </div>
       <footer class="panel panel--dark-yellow">
         <div class="container">
           <div class="row">
-            <div class="col-xs-9 col-sm-10">
+            <div class="col-xs-12 col-sm-3">
               <nav>
                 <ul>
                   <li>
@@ -517,18 +561,37 @@
                   <li>
                     <a class="" href="parties.html">Parties</a>
                   </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <nav>
+                <ul>
                   <li>
-                    <a class="" href="find-us.html">Find Us</a>
+                    <a class="" href="find-us.html">Find us in Reading - Wokingham</a><br>
+                  </li>
+                  <li>
+                    <a class="" href="tel:00447957319307">Phone: 0795 731 93 07</a><br>
+                  </li>
+                  <li>
+                    <a class="" href="mailto:theitalianfoodtruck@hotmail.com">Email: theitalianfoodtruck@hotmail.com</a>
                   </li>
                 </ul>
               </nav>
             </div>
-            <div class="col-xs-3 col-sm-2">
-              <span class="logo-wrapper"><img class="img-responsive" width="128" height="72" src="../img/van.svg" /></span>
+            <div class="col-xs-12 col-sm-3 text-center text-padding">
+              <a class="vertical-center" href="https://www.facebook.com/TheItalianFoodTruck"><img alt="facebook" title="facebook" width="32" height="32" src="img/facebook.svg"/></a>
+              <span class="vertical-center fb-follow" data-href="https://www.facebook.com/TheItalianFoodTruck" data-layout="button" data-size="large" data-show-faces="true"></span>
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 col-sm-9">
+            <div class="col-xs-12 text-center text-padding">
+              <img width="128" height="72" src="../img/van.svg" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
               <nav class="small-nav">
                 <ul>
                   <li>
@@ -540,13 +603,12 @@
                   <li>
                     <a class="" href="privacy.html">Privacy</a>
                   </li>
+                  <li>
+                    &copy; theitalianfoodtruck.co.uk.All rights reserved
+                  </li>
                 </ul>
               </nav>
             </div>
-            <div class="col-sm-3 hidden-xs">
-              <span class="logo-wrapper"><img class="img-responsive" width="583" height="75" src="../img/logo.svg" /></span>
-            </div>
-
           </div>
         </div>
       </footer>

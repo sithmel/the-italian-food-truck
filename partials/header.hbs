@@ -12,12 +12,22 @@
 
         <link rel="stylesheet" href="main.css">
         <script async src="main.js"></script>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.8";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
     </head>
     <body>
       <header class="panel panel--dark-yellow">
         <div class="text-center text-padding">
-          <span class="logo-wrapper"><img class="img-responsive" width="583" height="75" src="../img/logo.svg" /></span>
-          <span class="logo-wrapper"><img class="hidden-xs" width="128" height="72" src="../img/van.svg" /></span>
+          <a href="index.html">
+            <span class="logo-wrapper"><img class="img-responsive" width="583" height="75" src="../img/logo.svg" /></span>
+            <span class="logo-wrapper"><img class="hidden-xs" width="128" height="72" src="../img/van.svg" /></span>
+          </a>
         </div>
       </header>
       <div class="container">

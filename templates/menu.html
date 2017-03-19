@@ -5,7 +5,7 @@
   <p>{{description}}</p>
   {{#items}}
   <div class="col-xs-12 col-sm-4">
-    <div class="media menu-card">
+    <div class="media menu-card{{#if vegetarian}} menu-card__vegetarian{{/if}}">
       <div class="media-left menu-card__picture">
         <a href="#">
           <img class="media-object" src="img/food/small/{{img}}" alt="{{title}}">
@@ -16,6 +16,7 @@
         <div class="menu-card__desc">{{description_short}}</div>
       </div>
     </div>
+    <div class="menu-card__price panel--yellow">{{price}}</div>
   </div>
   {{/items}}
 </div>

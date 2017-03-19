@@ -51,6 +51,11 @@ body {
   margin-bottom: 60px;
 }
 
+.vertical-center {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .text-padding {
   padding: 20px;
 }
@@ -113,22 +118,30 @@ body {
   margin: 5px 0px;
 }
 
-.main-nav__item:nth-child(2n+0) a{
+.main-nav__item:nth-child(2n+0) a {
   transform: rotate(-5deg);
 }
 
-.main-nav__item:nth-child(2n+1) a{
+.main-nav__item:nth-child(2n+1) a {
   transform: rotate(5deg);
 }
 
 //small-nav
+
 .small-nav ul{
   padding-left: 0;
+  text-align: center;
 }
 
-.small-nav li{
-  display: inline-block;
+.small-nav li {
+  display: inline;
   font-size: 1rem;
+  padding: 0 5px;
+  color: $orange;
+}
+
+.small-nav li + li {
+  border-left: solid 1px;
 }
 
 // typography
@@ -138,9 +151,21 @@ a, a:hover {
 
 // menu-card
 .menu-card {
-  height: 85px;
+  height: 90px;
   padding: 5px;
   margin: 15px 0;
+}
+
+.menu-card__vegetarian:after {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 4px;
+  width: 32px;
+  height: 32px;
+  background-image: url("img/vegetarian.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .menu-card__picture a {
@@ -154,6 +179,16 @@ a, a:hover {
 
 .menu-card__desc {
   font-size: 14px;
+}
+
+.menu-card__price {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  padding: 4px 13px;
+  font-weight: 800;
+  transform: rotate(7deg);
+  box-shadow: 1px 1px 3px #000;
 }
 	// …
 // white-space: nowrap;
