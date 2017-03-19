@@ -40,7 +40,7 @@ $light-yellow: #faf4d8;
 // }
 body {
   margin: 0;
-  background: url(../img/bg/bg-sandwiches.jpg) no-repeat center;
+  background: url("../img/bg/bg-sandwiches.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -128,6 +128,10 @@ body {
   transform: rotate(5deg);
 }
 
+// nav-link
+.nav-link + .nav-link {
+  margin: 10px 0;
+}
 //small-nav
 
 .small-nav ul{
@@ -154,7 +158,7 @@ a, a:hover {
 // menu-card
 .menu-card {
   height: 90px;
-  padding: 5px;
+  padding: 5px 50px 5px 5px;
   margin: 15px 0;
 }
 

@@ -278,15 +278,18 @@
       "items": [
         {
           "title": "Coffee espresso - long or short",
-          "price": "£ 1.20"
+          "price": "£ 1.20",
+          "img": "coffee.jpg"
         },
         {
           "title": "Cappuccino",
-          "price": "£ 1.50"
+          "price": "£ 1.50",
+          "img": "coffee.jpg"
         },
         {
           "title": "Traditional Tea",
-          "price": "£ 0.80"
+          "price": "£ 0.80",
+          "img": "coffee.jpg"
         }
       ]
     },
@@ -295,33 +298,54 @@
       "items": [
         {
           "title": "Coca Cola",
-          "price": "£ 0.80"
+          "price": "£ 0.80",
+          "img": "cans.jpg"
         },
         {
           "title": "Diet Coke",
-          "price": "£ 0.80"
+          "price": "£ 0.80",
+          "img": "cans.jpg"
         },
         {
           "title": "Tango Orange",
-          "price": "£ 0.80"
+          "price": "£ 0.80",
+          "img": "cans.jpg"
         },
         {
           "title": "Aranciata",
-          "price": "£ 0.80"
+          "price": "£ 0.80",
+          "img": "cans.jpg"
         },
         {
           "title": "7 up",
-          "price": "£ 0.80"
+          "price": "£ 0.80",
+          "img": "cans.jpg"
         },
         {
           "title": "Still water",
-          "price": "£ 0.80"
+          "price": "£ 0.80",
+          "img": "cans.jpg"
         },
         {
           "title": "Sparkling water",
-          "price": "£ 0.80"
+          "price": "£ 0.80",
+          "img": "cans.jpg"
         }
       ]
     }
-  ]
+  ],
+  "overrides": {
+    "index.html": {
+      "bodyclass": "home"
+    },
+    "menu.html": {
+      "bodyclass": "menu"
+    },
+    "parties.html": {
+      "bodyclass": "parties"
+    },
+    "find-us.html": {
+      "bodyclass": "find-us"
+    }
+  }
 }
