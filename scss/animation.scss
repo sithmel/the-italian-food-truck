@@ -1,0 +1,110 @@
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: scaleX(0.5) scaleY(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+@keyframes smoke{
+  0% {
+    opacity: 1;
+    transform: scale(0.1, 0.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0px);
+  }
+  60% {
+    transform: translateX(300px);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(0deg);
+  }
+  50% {
+    transform: skewX(5deg) scaleX(1.2) scaleY(0.9);
+  }
+  70% {
+    transform: skewX(-10deg) scaleX(0.8) scaleY(1.2);
+  }
+  80% {
+    transform: skewX(0deg) scaleX(1) scaleY(1);
+  }
+  100% {
+    transform: skewX(0deg) scaleX(1) scaleY(1);
+  }
+}
+
+.anim__logo, .anim__cloud1, .anim__cloud2,
+.anim__vanwrapper, .anim__van {
+  display: inline-block;
+}
+
+.anim__cloudgroup {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.anim__logo{
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.anim__cloud1, .anim__cloud2 {
+  opacity: 0;
+}
+
+.anim__row {
+   overflow: hidden;
+}
+
+.anim__row:hover {
+
+  .anim__logo {
+    animation: appear 1.4s ease;
+    animation-fill-mode: forwards;
+  }
+
+  .anim__vanwrapper {
+    transform-origin: bottom right;
+    animation:
+      move 1.4s ease;
+    animation-fill-mode: forwards;
+  }
+
+  .anim__van {
+    transform-origin: bottom right;
+    animation:
+      skew 1.4s ease;
+    animation-fill-mode: forwards;
+  }
+
+  .anim__cloud1 {
+    animation: smoke 1.4s  cubic-bezier(0, 0.43, 0, 1.11) 0.1s;
+    animation-fill-mode: forwards;
+  }
+
+  .anim__cloud2 {
+    animation: smoke 1.4s  cubic-bezier(0, 0.43, 0, 1.11) 0.2s;
+    animation-fill-mode: forwards;
+  }
+
+}
