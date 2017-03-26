@@ -1,8 +1,9 @@
 @import 'node_modules/normalize.css/normalize';
 
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/_variables';
-$container-lg: 800px;
-$font-size-base: 16px;
+@import 'variables.scss';
+// $container-lg: 800px;
+// $font-size-base: 16px;
 //$brand-primary: #f48116;
 //$link-color:  #f48116;
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix';
@@ -19,15 +20,7 @@ $font-size-base: 16px;
 
 @import 'animation.scss';
 
-$green-italy: #9a947f;
-$white-italy: #ffffff;
-$red-italy: #ce2b37;
 
-$orange: #f48116;
-$dark-gray: #262d35;
-$yellow: #f7d74a;
-$light-orange: #f3cda9;
-$light-yellow: #faf4d8;
 
 // @font-face {
 //     font-family: 'open_sansbold_italic';
@@ -44,6 +37,7 @@ body {
   background-repeat: no-repeat;
   background-image: url("../img/bg/bg-sandwiches.jpg");
   background-size: cover;
+  background-color: $light-orange;
 }
 
 .panel {
@@ -157,50 +151,6 @@ a, a:hover {
   color: $orange
 }
 
-// menu-card
-.menu-card {
-  height: 90px;
-  padding: 5px 50px 5px 5px;
-  margin: 15px 0;
-}
-
-.menu-card__vegetarian:after {
-  content: '';
-  position: absolute;
-  top: -8px;
-  left: 4px;
-  width: 32px;
-  height: 32px;
-  background-image: url("img/vegetarian.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.menu-card__picture a {
-  width: 64px;
-  display: block;
-}
-
-.menu-card__picture img {
-  margin: auto;
-}
-
-.menu-card__desc {
-  font-size: 14px;
-}
-
-.menu-card__price {
-  position: absolute;
-  bottom: 0;
-  right: 5px;
-  padding: 4px 13px;
-  font-weight: 800;
-  transform: rotate(7deg);
-  box-shadow: 1px 1px 3px #000;
-}
-	// …
-// white-space: nowrap;
-// overflow: hidden;
-// text-overflow: ellipsis;
-//
+@import 'menu-card.scss';
 @import 'state.scss';
+@import 'modal.scss';

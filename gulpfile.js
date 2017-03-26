@@ -53,7 +53,7 @@ gulp.task('build:js', () =>
     .bundle()
     .pipe(source(paths.clientjs))
     .pipe(rename({ dirname: '' }))
-    .pipe(streamify(uglify()))
+//    .pipe(streamify(uglify()))
     .pipe(gulp.dest(dest)));
 
 gulp.task('default', [
