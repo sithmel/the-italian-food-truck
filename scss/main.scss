@@ -40,7 +40,9 @@ $light-yellow: #faf4d8;
 // }
 body {
   margin: 0;
-  background: url("../img/bg/bg-sandwiches.jpg") no-repeat center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/bg/bg-sandwiches.jpg");
   background-size: cover;
 }
 
@@ -49,7 +51,7 @@ body {
 }
 
 .vertical-spacing{
-  margin-top: 60px;
+  margin-top: 20px;
   margin-bottom: 60px;
 }
 
@@ -201,3 +203,4 @@ a, a:hover {
 // overflow: hidden;
 // text-overflow: ellipsis;
 //
+@import 'state.scss';
