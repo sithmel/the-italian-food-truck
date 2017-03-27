@@ -38,17 +38,17 @@
   "menu": [
     {
       "title": "Panini",
-      "description": "Filled with your choice of:",
       "items": [
         {
           "id": "item1",
           "number": "1",
           "title": "Parmigiana",
           "description": "Aubergines in a tomato sauce with Parmesan and mozzarella slices",
-          "description_short": "Aubergines in a tomato sauce with Parmesan…",
+          "description_short": "Aubergines in a tomato sauce with Parmesan and…",
           "vegetarian": true,
           "price": "£ 4.00",
-          "img": "panini.jpg"
+          "img": "panini.jpg",
+          "modal": true
         },
         {
           "id": "item2",
@@ -58,7 +58,8 @@
           "description_short": "Grilled italian sausage and mushrooms",
           "vegetarian": false,
           "price": "£ 4.00",
-          "img": "panini.jpg"
+          "img": "panini.jpg",
+          "modal": true
         },
         {
           "id": "item3",
@@ -68,17 +69,19 @@
           "description_short": "Fresh sliced mozzarella, tomatoes and basil",
           "vegetarian": true,
           "price": "£ 3.00",
-          "img": "panini.jpg"
+          "img": "panini.jpg",
+          "modal": true
         },
         {
           "id": "item4",
           "number": "4",
           "title": "Boscaiola",
           "description": "Sauted mushrooms in a chesee cream of dolcelatte and double cream",
-          "description_short": "Sauted mushrooms in a chesee cream of dolcelatte …",
+          "description_short": "Sauted mushrooms in a chesee cream of…",
           "vegetarian": true,
           "price": "£ 3.00",
-          "img": "panini.jpg"
+          "img": "panini.jpg",
+          "modal": true
         },
         {
           "id": "item5",
@@ -88,7 +91,8 @@
           "description_short": "Cooked ham on a bed of sliced mozzarella…",
           "vegetarian": false,
           "price": "£ 4.00",
-          "img": "panini.jpg"
+          "img": "panini.jpg",
+          "modal": true
         },
         {
           "id": "item6",
@@ -98,7 +102,8 @@
           "description_short": "Breast fillet dredged in eggs and…",
           "vegetarian": false,
           "price": "£ 4.00",
-          "img": "panini.jpg"
+          "img": "panini.jpg",
+          "modal": true
         },
         {
           "id": "item7",
@@ -108,7 +113,8 @@
           "description_short": "Smoked salmon topped with red peppers…",
           "vegetarian": false,
           "price": "£ 4.00",
-          "img": "panini.jpg"
+          "img": "panini.jpg",
+          "modal": true
         },
         {
           "id": "item8",
@@ -118,7 +124,8 @@
           "description_short": "Mince beef in tomato sauce, with garlic, parsley…",
           "vegetarian": false,
           "price": "£ 4.00",
-          "img": "panini.jpg"
+          "img": "panini.jpg",
+          "modal": true
         }
       ]
     },
@@ -134,7 +141,8 @@
           "description_short": "Cheese, tomato sauce, mozzarella",
           "vegetarian": true,
           "price": "£ 3.00",
-          "img": "calzoni.jpg"
+          "img": "calzoni.jpg",
+          "modal": true
         },
         {
           "id": "item10",
@@ -144,7 +152,8 @@
           "description_short": "Mushrooms, mozzarella, mix cheese",
           "vegetarian": true,
           "price": "£ 3.00",
-          "img": "calzoni.jpg"
+          "img": "calzoni.jpg",
+          "modal": true
         },
         {
           "id": "item11",
@@ -154,51 +163,57 @@
           "description_short": "Salame, cheese, mozzarella, tomato sauce",
           "vegetarian": false,
           "price": "£ 3.00",
-          "img": "calzoni.jpg"
+          "img": "calzoni.jpg",
+          "modal": true
         }
       ]
     },
     {
+      "title": "Specials",
       "items": [
         {
           "id": "item12",
           "number": "12",
           "title": "Arancini",
           "description": "Rice balls stuffed with meat, peas, mozzarella, tomato sauce, dredged in eggs and breadcrumbs and fried",
-          "description_short": "Rice balls stuffed with meat, peas, mozzarella, tomato sauce, dredged in eggs and breadcrumbs and fried",
+          "description_short": "Rice balls stuffed with meat, peas, mozzarella…",
           "vegetarian": false,
           "price": "£ 2.50",
-          "img": "arancini.jpg"
+          "img": "arancini.jpg",
+          "modal": true
         },
         {
           "id": "item13",
           "number": "13",
           "title": "Panino Napoletano",
           "description": "Basic pizza dough (flour, yeast, salt) filled with sweet and spicy cheese, bacon. Oven baked",
-          "description_short": "Basic pizza dough (flour, yeast, salt) filled with sweet and spicy cheese, bacon. Oven baked",
+          "description_short": "Basic pizza dough (flour, yeast, salt) filled with sweet…",
           "vegetarian": false,
           "price": "£ 3.00",
-          "img": "panino-napoletano.jpg"
+          "img": "panino-napoletano.jpg",
+          "modal": true
         },
         {
           "id": "item14",
           "number": "14",
           "title": "Montanara",
           "description": "Basic fried pizza dough (flour, yeast, salt) topped with tomato sauce, mozzarella and basil",
-          "description_short": "Basic fried pizza dough (flour, yeast, salt) topped with tomato sauce, mozzarella and basil",
+          "description_short": "Basic fried pizza dough (flour, yeast, salt) topped…",
           "vegetarian": true,
           "price": "£ 1.50",
-          "img": "montanara.jpg"
+          "img": "montanara.jpg",
+          "modal": true
         },
         {
           "id": "item15",
           "number": "15",
           "title": "Frittatina",
           "description": "Pasta stuffed with bacon, mozzarella, besciamella coated with breadcrumbs and fried",
-          "description_short": "Pasta stuffed with bacon, mozzarella, besciamella coated with breadcrumbs and fried",
+          "description_short": "Pasta stuffed with bacon, mozzarella…",
           "vegetarian": false,
           "price": "£ 2.50",
-          "img": "frittatina.jpg"
+          "img": "frittatina.jpg",
+          "modal": true
         }
       ]
     },
@@ -213,67 +228,74 @@
           "description_short": "Pasta penne, onion, tomato sauce and parmesan.",
           "vegetarian": true,
           "price": "£ 3.50",
-          "img": "penne-genovese.jpg"
+          "img": "penne-genovese.jpg",
+          "modal": true
         },
         {
           "id": "item17",
           "number": "17",
           "title": "Penne alla Bolognese",
           "description": "Pasta penne, mix meat, carrots, celery, onion, tomato and parmesan.",
-          "description_short": "Pasta penne, mix meat, carrots, celery, onion, tomato and parmesan.",
+          "description_short": "Pasta penne, mix meat, carrots, celery, onion, tomato…",
           "vegetarian": false,
           "price": "£ 4.50",
-          "img": "penne-bolognese.jpg"
+          "img": "penne-bolognese.jpg",
+          "modal": true
         },
         {
           "id": "item18",
           "number": "18",
           "title": "Penne with mushrooms",
           "description": "Pasta penne, mushrooms, garlic, cream and parmesan.",
-          "description_short": "Pasta penne, mushrooms, garlic, cream and parmesan.",
+          "description_short": "Pasta penne, mushrooms, garlic, cream and…",
           "vegetarian": true,
           "price": "£ 4.00",
-          "img": "penne-mushrooms.jpg"
+          "img": "penne-mushrooms.jpg",
+          "modal": true
         },
         {
           "id": "item19",
           "number": "19",
           "title": "Penne with meatballs",
           "description": "Pasta penne, meatballs, parmesan and tomato sauce.",
-          "description_short": "Pasta penne, meatballs, parmesan and tomato sauce.",
+          "description_short": "Pasta penne, meatballs, parmesan and tomato…",
           "vegetarian": false,
           "price": "£ 4.50",
-          "img": "penne-meatballs.jpg"
+          "img": "penne-meatballs.jpg",
+          "modal": true
         },
         {
           "id": "item20",
           "number": "20",
           "title": "Rigatoni spicy",
           "description": "Pasta rigatoni, n'duja, hot tomato sauce and parmesan.",
-          "description_short": "Pasta rigatoni, n'duja, hot tomato sauce and parmesan.",
+          "description_short": "Pasta rigatoni, n'duja, hot tomato sauce and…",
           "vegetarian": false,
           "price": "£ 3.50",
-          "img": "rigatoni-spicy.jpg"
+          "img": "rigatoni-spicy.jpg",
+          "modal": true
         },
         {
           "id": "item21",
           "number": "21",
           "title": "Rigatoni four cheese",
           "description": "Pasta rigatoni, sauteed in a cheese cream of dolcelatte and double cream, mozzarella and parmesan.",
-          "description_short": "Pasta rigatoni, sauteed in a cheese cream of dolcelatte and double cream, mozzarella and parmesan.",
+          "description_short": "Pasta rigatoni, sauteed in a cheese cream of…",
           "vegetarian": true,
           "price": "£ 4.00",
-          "img": "rigatoni-4-cheese.jpg"
+          "img": "rigatoni-4-cheese.jpg",
+          "modal": true
         },
         {
           "id": "item22",
           "number": "22",
           "title": "Rigatoni with salmon",
           "description": "Pasta rigatoni, smoked salmon, onion, cream and parmesan.",
-          "description_short": "Pasta rigatoni, smoked salmon, onion, cream and parmesan.",
+          "description_short": "Pasta rigatoni, smoked salmon, onion, cream…",
           "vegetarian": false,
           "price": "£ 4.50",
-          "img": "penne-salmone-panna.jpg"
+          "img": "penne-salmone-panna.jpg",
+          "modal": true
         },
         {
           "id": "item23",
@@ -283,17 +305,19 @@
           "description_short": "Pasta gnocchi, tomato sauce and parmesan.",
           "vegetarian": true,
           "price": "£ 4.00",
-          "img": "gnocchi-di-patate-al-pomodoro.jpg"
+          "img": "gnocchi-di-patate-al-pomodoro.jpg",
+          "modal": true
         },
         {
           "id": "item24",
           "number": "24",
           "title": "Gnocchi with cheese",
-          "description": "Pasta gnocchi, sauteed in a cheese cream of dolcelatte and double cream, mozzarella and parmesan",
-          "description_short": "Pasta gnocchi, sauteed in a cheese cream of dolcelatte and double cream, mozzarella and parmesan",
+          "description": "Pasta gnocchi, sauteed in a cheese cream of dolcelatte and double cream, mozzarella and parmesan.",
+          "description_short": "Pasta gnocchi, sauteed in a cheese cream of…",
           "vegetarian": true,
           "price": "£ 4.50",
-          "img": "gnocchi-formaggi.jpg"
+          "img": "gnocchi-formaggi.jpg",
+          "modal": true
         }
       ]
     },
@@ -302,7 +326,8 @@
       "items": [
         {
           "id": "item25",
-          "title": "Coffee espresso - long or short",
+          "title": "Coffee espresso",
+          "description_short": "long or short",
           "price": "£ 1.20",
           "img": "coffee.jpg"
         },

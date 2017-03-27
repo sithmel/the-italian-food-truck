@@ -1,30 +1,35 @@
 {{>header}}
 {{#menu}}
 <div class="row vertical-spacing panel panel--light-yellow text-padding">
-  <h4>{{title}}</h4>
-  <p>{{description}}</p>
+  <h4 class="menu-section-title">{{title}}</h4>
+  <p class="clearfix"></p>
   {{#items}}
-  <div id="{{id}}" class="col-xs-12 col-sm-6" data-toggle-class="modal--active" data-toggle-class-selector="#modal-{{id}}">
+  <div id="{{id}}"
+       class="col-xs-12 col-sm-6"
+       {{#if modal}}
+       data-toggle-class="modal--active"
+       data-toggle-class-selector="#modal-{{id}}"
+       {{/if}}>
     <div class="media menu-card{{#if vegetarian}} menu-card__vegetarian{{/if}}">
       <div class="media-left menu-card__picture">
-        <a href="#">
-          <img class="media-object" src="img/food/small/{{img}}" alt="{{title}}">
-        </a>
+        <img class="media-object" src="img/food/small/{{img}}" alt="{{title}}">
       </div>
       <div class="media-body">
         <h4 class="media-heading">{{#if number}}{{number}}) {{/if}}{{title}}</h4>
-        <div class="menu-card__desc">{{description_short}}</div>
+        <div class="menu-card__desc">{{description_short}} </div>
       </div>
     </div>
     <div class="menu-card__price panel--yellow">{{price}}</div>
   </div>
+  {{#if modal}}
   <div class="modal" id="modal-{{id}}">
     <div class="modal__content"
     style="background-image: url(img/food/big/{{img}});">
-    <div class="modal__close" data-toggle-class="modal--active" data-toggle-class-selector="#modal-{{id}}">✖</div>
-    <div class="modal__description"><strong>{{title}}</strong>{{#if description}} - {{description}}{{/if}}</div>
+      <div class="modal__close" data-toggle-class="modal--active" data-toggle-class-selector="#modal-{{id}}">✖</div>
+      <div class="modal__description"><strong>{{title}}</strong>{{#if description}} - {{description}}{{/if}}</div>
+    </div>
   </div>
-  </div>
+  {{/if}}
   {{/items}}
 </div>
 {{/menu}}
