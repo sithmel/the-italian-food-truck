@@ -1,6 +1,12 @@
+@import 'variables.scss';
+
 .home {
   & body {
     background-image: url("../img/bg/bg-arancini.jpg");
+  }
+  .home-link {
+    background-color: $orange;
+    color: white;
   }
 }
 
@@ -8,11 +14,19 @@
   & body {
     background-image: url("../img/bg/bg-mozzarella.jpg");
   }
+  .menu-link {
+    background-color: $orange;
+    color: white;
+  }
 }
 
 .parties {
   & body {
     background-image: url("../img/bg/bg-party.jpg");
+  }
+  .parties-link {
+    background-color: $orange;
+    color: white;
   }
 }
 
@@ -20,5 +34,9 @@
 .find-us {
   & body {
     background-image: url("../img/bg/bg-spaghetti.jpg");
+  }
+  .find-us-link {
+    background-color: $orange;
+    color: white;
   }
 }
