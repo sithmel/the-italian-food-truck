@@ -390,6 +390,68 @@
       ]
     }
   ],
+  "parties": [
+    {
+      "label": "menu 1",
+      "price": "£ 10.50 for person (min 10 people)",
+      "img": "menu1.png",
+      "menu": [
+        {
+          "name": "Lasagna",
+          "description": "pasta lasagna, mix of minced meat, besciamella, parmesan"
+        },
+        {
+          "name": "Roast pork with carrot sauce",
+          "description": "pork loin, carrots, onion"
+        },
+        {
+          "name": "Mix salad"
+        },
+        {
+          "name": "Cheese cake"
+        }
+      ]
+    },
+    {
+      "label": "menu 2",
+      "price": "£ 11.00 for person (min 10 people)",
+      "img": "menu2.png",
+      "menu": [
+        {
+          "name": "Seafood risotto",
+          "description": "rice, prawns, mussels, squids"
+        },
+        {
+          "name": "Italian pork sausage"
+        },
+        {
+          "name": "Mushrooms or roasted potatoes"
+        },
+        {
+          "name": "Fruit cake"
+        }
+      ]
+    },
+    {
+      "label": "menu 3",
+      "price": "£ 12.50 for person (min 10 people)",
+      "img": "menu3.png",
+      "menu": [
+        {
+          "name": "Four cheese pasta bake"
+        },
+        {
+          "name": "Sea bream fillet with cherry tomatoes"
+        },
+        {
+          "name": "Mix salad"
+        },
+        {
+          "name": "Jam tart"
+        }
+      ]
+    }
+  ],
   "overrides": {
     "index.html": {
       "bodyclass": "home"
