@@ -1,12 +1,11 @@
 {{>header}}
 {{#parties}}
-<div class="row vertical-spacing panel panel--light-yellow">
+<div class="row vertical-spacing panel panel--light-yellow party-card">
+  <div class="party-card__title">{{label}}</div>
   <div class="col-xs-12 col-sm-6 text-padding">
     <img class="img-responsive block-center party-card__image" alt="" src="../img/gallery/{{img}}"/>
   </div>
   <div class="col-xs-12 col-sm-6 text-padding party-card">
-    <div class="party-card__title">{{label}}</div>
-    <div class="party-card__price">{{price}}</div>
     <ul class="party-card__menu">
       {{#menu}}
         <li class="party-card__menu-item">{{name}}
@@ -14,6 +13,7 @@
         </li>
       {{/menu}}
     </ul>
+    <div class="party-card__price">{{price}}</div>
   </div>
 </div>
 {{/parties}}

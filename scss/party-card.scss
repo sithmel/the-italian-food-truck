@@ -1,4 +1,50 @@
+@import 'variables.scss';
+
+.party-card {
+  position: relative;
+}
+
 .party-card__image {
   border-radius: 30px;
   border: solid 8px white;
+}
+
+.party-card__title {
+  background-color: $orange;
+  padding: 10px;
+  width: 150px;
+  color: white;
+  box-shadow: 1px 1px 2px $dark-gray;
+  border-radius: 6px 2px 2px 6px;
+  margin-top: 0;
+  text-align: left;
+  text-shadow: 1px 1px 1px #262d35;
+  position: absolute;
+  top: 15px;
+  right: -7px;
+  z-index: 1;
+}
+
+.party-card__price {
+  background-color: $yellow;
+  padding: 10px;
+  width: 150px;
+  color: $dark-gray;
+  box-shadow: 1px 1px 2px $dark-gray;
+  margin-top: 0;
+  text-align: center;
+  margin: auto;
+}
+
+.party-card__menu {
+  padding: 5px;
+}
+
+.party-card__menu-item{
+  margin: 10px 0;
+}
+
+.party-card__menu-item-desc {
+  opacity: 0.8;
+  font-size: 80%;
 }
