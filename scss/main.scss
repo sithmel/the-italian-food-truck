@@ -110,7 +110,11 @@ body {
 // navigation
 .main-nav {
   text-align: center;
-  margin-top: -12px;
+  overflow: hidden;
+}
+
+.main-nav__item {
+  padding: 0;
 }
 
 .main-nav__item a {
@@ -118,15 +122,13 @@ body {
   padding: 10px 1px;
   max-width: 168px;
   width: 80%;
-  margin: 5px 0px;
+  border-radius: 0px 0px 10px 10px;
+  transform: translateY(-4px);
+  transition: transform 200ms;
 }
 
-.main-nav__item:nth-child(2n+0) a {
-  transform: rotate(-5deg);
-}
-
-.main-nav__item:nth-child(2n+1) a {
-  transform: rotate(5deg);
+.main-nav__item a:hover {
+  transform: translateY(0px);
 }
 
 // nav-link
