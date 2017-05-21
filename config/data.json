@@ -10,6 +10,7 @@
     "phone": { "value": "00447957319307", "label": "0795 731 93 07" }
   },
   "google_analytics": "UA-XXXXX-X",
+  "google_maps_key": "AIzaSyBjwv9ieaTx2Ux5CMymifnqDXZU_lDPadg",
   "nav": [
     {
       "id": "home",
@@ -449,6 +450,28 @@
         {
           "name": "Jam tart"
         }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "label": "Reading Football Club",
+      "place": "Boot End, Reading, RG2 0FL",
+      "place-map": "Boot+End+Reading+RG2+0FL",
+      "event": "Only Saturday the 10th",
+      "desc": [
+        "Monday - 04:00PM - 09:00PM",
+        "Thursday- 04:00PM - 09:00PM",
+        "Saturday - 09:00AM - 02:00PM"
+      ]
+    },
+    {
+      "label": "Wokingham Market",
+      "place": "Market Place, Wokingham, RG40 1AL",
+      "place-map": "Market+Place+Wokingham+RG40+1AL",
+      "desc": [
+        "Tuesday - 09:00AM - 03:00PM",
+        "Friday - 09:00AM - 03:00PM"
       ]
     }
   ],

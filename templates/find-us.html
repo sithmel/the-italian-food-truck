@@ -1,6 +1,24 @@
 {{>header}}
-<div class="row vertical-spacing panel panel--light-yellow">
-  <div class="col-xs-12 text-padding">
+{{#places}}
+<div class="row vertical-spacing panel panel--light-yellow place-card text-padding">
+  {{#if event}}
+    <div class="place-card__event">{{event}}</div>
+  {{/if}}
+  <div class="place-card__title">{{label}}</div>
+  <div class="col-xs-12">
+    <ul class="place-card__desc">
+      {{#desc}}
+        <li class="place-card__desc-item">{{this}}</li>
+      {{/desc}}
+    </ul>
+  </div>
+  <div class="col-xs-12">
+    <div class="place-card__maps">
+      <iframe width="600" height="450" frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key={{{../google_maps_key}}}&q={{{place-map}}}" allowfullscreen>
+      </iframe>
+    </div>
   </div>
 </div>
+{{/places}}
 {{>footer}}

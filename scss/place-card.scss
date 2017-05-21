@@ -1,0 +1,47 @@
+@import 'variables.scss';
+
+.place-card {
+  position: relative;
+}
+
+.place-card__title {
+  background-color: $orange;
+  padding: 10px;
+  margin-left: -29px;
+  margin-right: -30px;
+  width: 200px;
+  color: white;
+  box-shadow: 1px 1px 2px $dark-gray;
+  border-radius: 2px 6px 6px 2px;
+  margin-top: 0;
+  text-align: right;
+  text-shadow: 1px 1px 1px #262d35;
+}
+
+.place-card__maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.place-card__maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.place-card__event {
+  background-color: $yellow;
+  padding: 10px;
+  margin-right: -10px;
+  width: 200px;
+  box-shadow: 1px 1px 2px #262d35;
+  border-radius: 6px 2px 2px 6px;
+  margin-top: 0;
+  position: absolute;
+  right: 0;
+  max-width: 30%;
+}

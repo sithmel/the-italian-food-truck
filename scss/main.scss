@@ -158,7 +158,19 @@ a, a:hover {
   color: $orange
 }
 
+.vertical-align {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.vertical-align::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+}
+
 @import 'menu-card.scss';
 @import 'party-card.scss';
+@import 'place-card.scss';
 @import 'state.scss';
 @import 'modal.scss';
