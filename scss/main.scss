@@ -36,7 +36,7 @@ body {
   margin: 0;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../img/bg/bg-sandwiches.jpg");
+  background-image: url("img/bg/bg-sandwiches.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-color: $light-orange;
@@ -67,7 +67,7 @@ body {
 .panel--orange {
   background-color: $orange;
   color: $dark-gray;
-  background-image: url("../img/bg/food.png");
+  background-image: url("img/bg/food.png");
 }
 
 .panel--yellow {
@@ -78,7 +78,7 @@ body {
 .panel--light-yellow {
   background-color: $light-yellow;
   color: $dark-gray;
-  background-image: url("../img/bg/food.png");
+  background-image: url("img/bg/food.png");
 }
 
 .panel--light-orange {
@@ -89,7 +89,7 @@ body {
 .panel--dark-yellow {
   background-color: $dark-gray;
   color: $light-yellow;
-  background-image: url("../img/bg/3px-tile.png");
+  background-image: url("img/bg/3px-tile.png");
 }
 
 .panel--dark-orange {
