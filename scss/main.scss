@@ -169,6 +169,18 @@ a, a:hover {
   vertical-align: middle;
 }
 
+
+// buttons
+.button {
+  display: block;
+  padding: 12px;
+  margin: 30px auto 12px auto;
+  width: 127px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+
 @import 'menu-card.scss';
 @import 'party-card.scss';
 @import 'place-card.scss';
