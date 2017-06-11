@@ -455,15 +455,9 @@
   ],
   "places": [
     {
-      "label": "Woodley Carnival",
-      "place": "Woodford Park - Woodley",
-      "place-map": "Woodford+Park+Woodley",
-      "desc": [
-        "10/06/2017 - Woodford Park - Woodley"
-      ]
-    },
-    {
+      "id":"palmer-park",
       "label": "Palmer Park festival",
+      "event": "25/06/2017",
       "place": "Palmer Park - Reading",
       "place-map": "Palmer+Park+Reading",
       "desc": [
@@ -471,7 +465,9 @@
       ]
     },
     {
+      "id":"newbury-carnival",
       "label": "Newbury Carnival",
+      "event": "16/07/2017",
       "place": "Victoria Park - Newbury",
       "place-map": "Victoria+Park+Newbury",
       "desc": [
@@ -479,7 +475,29 @@
       ]
     },
     {
+      "id":"bracknell-show",
+      "label": "Bracknell Show",
+      "event": "22/07/2017",
+      "place": "Wildridings playing fields - Bracknell",
+      "place-map": "RG12+7RH+bracknell",
+      "desc": [
+        "22/07/2017 - Wildridings playing fields - Bracknell"
+      ]
+    },
+    {
+      "id":"cantley-field",
+      "label": "Cantley field in Emmbrook/Wokingham",
+      "event": "13/08/2017",
+      "place": "Cantley field in Emmbrook/Wokingham",
+      "place-map": "RG40+5TU+cantley+park",
+      "desc": [
+        "13/08/2017 - Cantley field in Emmbrook/Wokingham"
+      ]
+    },
+    {
+      "id":"dragon-boat",
       "label": "Dragon Boat Festival",
+      "event": "20/08/2017",
       "place": "Reading Thames Valley Park Riverside RG6 1PQ",
       "place-map": "RG6+1PQ+Thames+Valley+Park",
       "desc": [
@@ -487,9 +505,11 @@
       ]
     },
     {
+      "id":"football",
       "label": "Reading Football Club",
       "place": "Boot End, Reading, RG2 0FL",
       "place-map": "Boot+End+Reading+RG2+0FL",
+      "event": "every Mon, Thu, Sat",
       "desc": [
         "Monday - 04:00PM - 08:00PM",
         "Thursday- 04:00PM - 08:00PM",
@@ -497,18 +517,22 @@
       ]
     },
     {
+      "id":"wokingham-market",
       "label": "Wokingham Market",
       "place": "Market Place, Wokingham, RG40 1AL",
       "place-map": "Market+Place+Wokingham+RG40+1AL",
+      "event": "every Tue, Fri",
       "desc": [
         "Tuesday - 09:00AM - 03:00PM",
         "Friday - 09:00AM - 03:00PM"
       ]
     },
     {
+      "id":"newbury-market",
       "label": "Newbury - Wharf Road",
       "place": "Wharf Road, Newbury",
       "place-map": "Newbury+Wharf+Road",
+      "event": "every Thu",
       "desc": [
         "Thursday - 09:00AM - 03:00PM"
       ]

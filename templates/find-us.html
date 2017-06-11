@@ -1,9 +1,19 @@
 {{>header}}
+<div class="place-card-summary row vertical-spacing panel panel--light-orange place-card text-padding">
+  <div class="place-card-summary__title">Find us here</div>
+  <div class="col-xs-12 col-sm-6">
+    <ul class="place-card-summary__list">
+      {{#places}}
+        <li><a href="#{{id}}">{{label}}</a>{{#if event}}<span class="place-card-summary__event">{{event}}</span>{{/if}}</li>
+      {{/places}}
+    </ul>
+  </div>
+  <div class="col-xs-12 col-sm-6">
+    <img class="img-responsive block-center" alt="" src="img/gallery/van-closed.jpg"/>
+  </div>
+</div>
 {{#places}}
-<div class="row vertical-spacing panel panel--light-yellow place-card text-padding">
-  {{#if event}}
-    <div class="place-card__event">{{event}}</div>
-  {{/if}}
+<div id="{{id}}" class="row vertical-spacing panel panel--light-yellow place-card text-padding">
   <div class="place-card__title">{{label}}</div>
   <div class="col-xs-12">
     <ul class="place-card__desc">
