@@ -455,16 +455,6 @@
   ],
   "places": [
     {
-      "id":"palmer-park",
-      "label": "Palmer Park festival",
-      "event": "25/06/2017",
-      "place": "Palmer Park - Reading",
-      "place-map": "Palmer+Park+Reading",
-      "desc": [
-        "25/06/2017 - Palmer Park - Reading"
-      ]
-    },
-    {
       "id":"newbury-carnival",
       "label": "Newbury Carnival",
       "event": "16/07/2017",
