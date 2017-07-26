@@ -455,26 +455,6 @@
   ],
   "places": [
     {
-      "id":"newbury-carnival",
-      "label": "Newbury Carnival",
-      "event": "16/07/2017",
-      "place": "Victoria Park - Newbury",
-      "place-map": "Victoria+Park+Newbury",
-      "desc": [
-        "16/07/2017 - Victoria Park - Newbury"
-      ]
-    },
-    {
-      "id":"bracknell-show",
-      "label": "Bracknell Show",
-      "event": "22/07/2017",
-      "place": "Wildridings playing fields - Bracknell",
-      "place-map": "RG12+7RH+bracknell",
-      "desc": [
-        "22/07/2017 - Wildridings playing fields - Bracknell"
-      ]
-    },
-    {
       "id":"cantley-field",
       "label": "Cantley field in Emmbrook/Wokingham",
       "event": "13/08/2017",
