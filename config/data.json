@@ -455,23 +455,12 @@
   ],
   "places": [
     {
-      "id":"cantley-field",
-      "label": "Cantley field in Emmbrook/Wokingham",
-      "event": "13/08/2017",
-      "place": "Cantley field in Emmbrook/Wokingham",
-      "place-map": "RG40+5TU+cantley+park",
+      "id":"Thatcham",
+      "label": "Thatcham market",
+      "place": "Thatcham Broadway Green RG19 3HP",
+      "place-map": "Thatcham+Broadway+Green+RG19+3HP",
+      "event": "Friday 6th October 2017",
       "desc": [
-        "13/08/2017 - Cantley field in Emmbrook/Wokingham"
-      ]
-    },
-    {
-      "id":"dragon-boat",
-      "label": "Dragon Boat Festival",
-      "event": "20/08/2017",
-      "place": "Reading Thames Valley Park Riverside RG6 1PQ",
-      "place-map": "RG6+1PQ+Thames+Valley+Park",
-      "desc": [
-        "20/08/2017 - Thames Valley Park Riverside - Reading"
       ]
     },
     {
@@ -483,7 +472,7 @@
       "desc": [
         "Monday - 04:00PM - 08:00PM",
         "Thursday- 04:00PM - 08:00PM",
-        "Saturday - 09:00AM - 03:00PM"
+        "Some Saturday - (check on Facebook)"
       ]
     },
     {
@@ -491,10 +480,9 @@
       "label": "Wokingham Market",
       "place": "Market Place, Wokingham, RG40 1AL",
       "place-map": "Market+Place+Wokingham+RG40+1AL",
-      "event": "every Tue, Fri",
+      "event": "suspended",
       "desc": [
-        "Tuesday - 09:00AM - 03:00PM",
-        "Friday - 09:00AM - 03:00PM"
+        "Suspended until spring 2018"
       ]
     },
     {
@@ -504,7 +492,8 @@
       "place-map": "Newbury+Wharf+Road",
       "event": "every Thu",
       "desc": [
-        "Thursday - 09:00AM - 03:00PM"
+        "Thursday - 09:00AM - 03:00PM",
+        "Some Saturday - (check on Facebook)"
       ]
     }
   ],
