@@ -455,12 +455,34 @@
   ],
   "places": [
     {
-      "id":"Thatcham",
-      "label": "Thatcham market",
-      "place": "Thatcham Broadway Green RG19 3HP",
-      "place-map": "Thatcham+Broadway+Green+RG19+3HP",
-      "event": "Friday 6th October 2017",
+      "id":"abbey-gate",
+      "label": "Abbey gate",
+      "place": "57-75 Kings Road, Reading, Berkshire RG1 3AB",
+      "place-map": "57-75+Kings+Road+Reading+Berkshire+RG1+3AB",
+      "event": "17-31 October 2017",
       "desc": [
+        "Tuesday 17th October 2017",
+        "Tuesday 31st October 2017"
+      ]
+    },
+    {
+      "id":"southbank-central",
+      "label": "SouthBank Central",
+      "place": "5 Hatfields, London. SE1 9PG",
+      "place-map": "5+Hatfields+London+SE1+9PG",
+      "event": "25th October 2017",
+      "desc": [
+        "Wednesday 25th October 2017"
+      ]
+    },
+    {
+      "id":"wework",
+      "label": "WeWork Old Street",
+      "place": "41 Corsham Street, London. N1 6DR",
+      "place-map": "41+Corsham+Street+London+N1+6DR",
+      "event": "30th October 2017",
+      "desc": [
+        "Monday 30th October 2017"
       ]
     },
     {
