@@ -77,7 +77,7 @@
           "description": "Sauted mushrooms in a chesee cream of dolcelatte and double cream",
           "description_short": "Sauted mushrooms in a chesee cream of…",
           "vegetarian": true,
-          "price": "£ 3.00",
+          "price": "£ 4.00",
           "img": "panini.jpg",
           "modal": true
         },
@@ -247,7 +247,7 @@
           "description": "Pasta penne, mushrooms, garlic, cream and parmesan.",
           "description_short": "Pasta penne, mushrooms, garlic, cream and…",
           "vegetarian": true,
-          "price": "£ 4.00",
+          "price": "£ 4.50",
           "img": "penne-mushrooms.jpg",
           "modal": true
         },
@@ -280,7 +280,7 @@
           "description": "Pasta rigatoni, sauteed in a cheese cream of dolcelatte and double cream, mozzarella and parmesan.",
           "description_short": "Pasta rigatoni, sauteed in a cheese cream of…",
           "vegetarian": true,
-          "price": "£ 4.00",
+          "price": "£ 4.50",
           "img": "rigatoni-4-cheese.jpg",
           "modal": true
         },
@@ -340,6 +340,12 @@
           "title": "Traditional Tea",
           "price": "£ 0.80",
           "img": "coffee.jpg"
+        },
+        {
+          "id": "item27b",
+          "title": "Hot Chocolate",
+          "price": "£ 1.30",
+          "img": "coffee.jpg"
         }
       ]
     },
@@ -349,43 +355,43 @@
         {
           "id": "item28",
           "title": "Coca Cola",
-          "price": "£ 0.80",
+          "price": "£ 1.00",
           "img": "cans.jpg"
         },
         {
           "id": "item29",
           "title": "Diet Coke",
-          "price": "£ 0.80",
+          "price": "£ 1.00",
           "img": "cans.jpg"
         },
         {
           "id": "item30",
           "title": "Tango Orange",
-          "price": "£ 0.80",
+          "price": "£ 1.00",
           "img": "cans.jpg"
         },
         {
           "id": "item31",
           "title": "Aranciata",
-          "price": "£ 0.80",
+          "price": "£ 1.00",
           "img": "cans.jpg"
         },
         {
           "id": "item32",
           "title": "7 up",
-          "price": "£ 0.80",
+          "price": "£ 1.00",
           "img": "cans.jpg"
         },
         {
           "id": "item33",
           "title": "Still water",
-          "price": "£ 0.80",
+          "price": "£ 1.00",
           "img": "cans.jpg"
         },
         {
           "id": "item34",
           "title": "Sparkling water",
-          "price": "£ 0.80",
+          "price": "£ 1.00",
           "img": "cans.jpg"
         }
       ]
@@ -455,34 +461,24 @@
   ],
   "places": [
     {
-      "id":"abbey-gate",
-      "label": "Abbey gate",
-      "place": "57-75 Kings Road, Reading, Berkshire RG1 3AB",
-      "place-map": "57-75+Kings+Road+Reading+Berkshire+RG1+3AB",
-      "event": "17-31 October 2017",
-      "desc": [
-        "Tuesday 17th October 2017",
-        "Tuesday 31st October 2017"
-      ]
-    },
-    {
       "id":"southbank-central",
       "label": "SouthBank Central",
       "place": "5 Hatfields, London. SE1 9PG",
       "place-map": "5+Hatfields+London+SE1+9PG",
-      "event": "25th October 2017",
+      "event": "13th December 2017",
       "desc": [
-        "Wednesday 25th October 2017"
+        "Wednesday 13th December 2017"
       ]
     },
     {
-      "id":"wework",
-      "label": "WeWork Old Street",
-      "place": "41 Corsham Street, London. N1 6DR",
-      "place-map": "41+Corsham+Street+London+N1+6DR",
-      "event": "30th October 2017",
+      "id":"eastbourne-terrace",
+      "label": "2 Eastbourne Terrace",
+      "place": "2 Eastbourne Terrace London W2 6LG",
+      "place-map": "2+Eastbourne+terrace+london+W2+6LG",
+      "event": "4th - 18th December 2017",
       "desc": [
-        "Monday 30th October 2017"
+        "Monday 4th December 2017",
+        "Monday 18th December 2017"
       ]
     },
     {
