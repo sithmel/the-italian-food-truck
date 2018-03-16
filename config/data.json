@@ -461,24 +461,33 @@
   ],
   "places": [
     {
-      "id":"southbank-central",
-      "label": "SouthBank Central",
-      "place": "5 Hatfields, London. SE1 9PG",
-      "place-map": "5+Hatfields+London+SE1+9PG",
-      "event": "13th December 2017",
+      "id":"woodley-carnival",
+      "label": "Woodley Carnival",
+      "place": "Headley Road, Woodley. RG5 4JZ",
+      "place-map": "headley+road+woodley+RG5+4JZ",
+      "event": "9th June 2018",
       "desc": [
-        "Wednesday 13th December 2017"
+        "Saturday 9th June 2018"
       ]
     },
     {
-      "id":"eastbourne-terrace",
-      "label": "2 Eastbourne Terrace",
-      "place": "2 Eastbourne Terrace London W2 6LG",
-      "place-map": "2+Eastbourne+terrace+london+W2+6LG",
-      "event": "4th - 18th December 2017",
+      "id":"hampshire-country",
+      "label": "Hampshire Country & Garden Festival",
+      "place": "Bere Mill, Whitchurch, Hampshire RG28 7NH",
+      "place-map": "bere-mill-whitchurch+hampshire+RG28+7NH",
+      "event": "10th June 2018",
       "desc": [
-        "Monday 4th December 2017",
-        "Monday 18th December 2017"
+        "Sunday 10th June 2018"
+      ]
+    },
+    {
+      "id":"east-reading",
+      "label": "East Reading Festival",
+      "place": "Palmer Park Reading",
+      "place-map": "palmer-park-reading",
+      "event": "17th June 2018",
+      "desc": [
+        "Sunday 17th June 2018"
       ]
     },
     {
