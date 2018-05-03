@@ -225,7 +225,7 @@
           "description": "Pasta penne, onion, tomato sauce and parmesan.",
           "description_short": "Pasta penne, onion, tomato sauce and parmesan.",
           "vegetarian": true,
-          "price": "£ 3.50",
+          "price": "£ 4.00",
           "img": "penne-genovese.jpg",
           "modal": true
         },
@@ -236,7 +236,7 @@
           "description": "Pasta penne, mix meat, carrots, celery, onion, tomato and parmesan.",
           "description_short": "Pasta penne, mix meat, carrots, celery, onion, tomato…",
           "vegetarian": false,
-          "price": "£ 4.50",
+          "price": "£ 5.00",
           "img": "penne-bolognese.jpg",
           "modal": true
         },
@@ -247,7 +247,7 @@
           "description": "Pasta penne, mushrooms, garlic, cream and parmesan.",
           "description_short": "Pasta penne, mushrooms, garlic, cream and…",
           "vegetarian": true,
-          "price": "£ 4.50",
+          "price": "£ 5.00",
           "img": "penne-mushrooms.jpg",
           "modal": true
         },
@@ -258,7 +258,7 @@
           "description": "Pasta penne, meatballs, parmesan and tomato sauce.",
           "description_short": "Pasta penne, meatballs, parmesan and tomato…",
           "vegetarian": false,
-          "price": "£ 4.50",
+          "price": "£ 5.00",
           "img": "penne-meatballs.jpg",
           "modal": true
         },
@@ -269,7 +269,7 @@
           "description": "Pasta rigatoni, n'duja, hot tomato sauce and parmesan.",
           "description_short": "Pasta rigatoni, n'duja, hot tomato sauce and…",
           "vegetarian": false,
-          "price": "£ 3.50",
+          "price": "£ 4.00",
           "img": "rigatoni-spicy.jpg",
           "modal": true
         },
@@ -280,7 +280,7 @@
           "description": "Pasta rigatoni, sauteed in a cheese cream of dolcelatte and double cream, mozzarella and parmesan.",
           "description_short": "Pasta rigatoni, sauteed in a cheese cream of…",
           "vegetarian": true,
-          "price": "£ 4.50",
+          "price": "£ 5.00",
           "img": "rigatoni-4-cheese.jpg",
           "modal": true
         },
@@ -291,7 +291,7 @@
           "description": "Pasta rigatoni, smoked salmon, onion, cream and parmesan.",
           "description_short": "Pasta rigatoni, smoked salmon, onion, cream…",
           "vegetarian": false,
-          "price": "£ 4.50",
+          "price": "£ 5.00",
           "img": "penne-salmone-panna.jpg",
           "modal": true
         },
@@ -302,7 +302,7 @@
           "description": "Pasta gnocchi, tomato sauce and parmesan.",
           "description_short": "Pasta gnocchi, tomato sauce and parmesan.",
           "vegetarian": true,
-          "price": "£ 4.00",
+          "price": "£ 5.00",
           "img": "gnocchi-di-patate-al-pomodoro.jpg",
           "modal": true
         },
@@ -313,7 +313,7 @@
           "description": "Pasta gnocchi, sauteed in a cheese cream of dolcelatte and double cream, mozzarella and parmesan.",
           "description_short": "Pasta gnocchi, sauteed in a cheese cream of…",
           "vegetarian": true,
-          "price": "£ 4.50",
+          "price": "£ 5.00",
           "img": "gnocchi-formaggi.jpg",
           "modal": true
         }
