@@ -461,36 +461,6 @@
   ],
   "places": [
     {
-      "id":"woodley-carnival",
-      "label": "Woodley Carnival",
-      "place": "Headley Road, Woodley. RG5 4JZ",
-      "place-map": "headley+road+woodley+RG5+4JZ",
-      "event": "9th June 2018",
-      "desc": [
-        "Saturday 9th June 2018"
-      ]
-    },
-    {
-      "id":"hampshire-country",
-      "label": "Hampshire Country & Garden Festival",
-      "place": "Bere Mill, Whitchurch, Hampshire RG28 7NH",
-      "place-map": "bere-mill-whitchurch+hampshire+RG28+7NH",
-      "event": "10th June 2018",
-      "desc": [
-        "Sunday 10th June 2018"
-      ]
-    },
-    {
-      "id":"east-reading",
-      "label": "East Reading Festival",
-      "place": "Palmer Park Reading",
-      "place-map": "palmer-park-reading",
-      "event": "17th June 2018",
-      "desc": [
-        "Sunday 17th June 2018"
-      ]
-    },
-    {
       "id":"football",
       "label": "Reading Football Club",
       "place": "Boot End, Reading, RG2 0FL",
