@@ -461,25 +461,24 @@
   ],
   "places": [
     {
-      "id":"football",
-      "label": "Reading Football Club",
-      "place": "Boot End, Reading, RG2 0FL",
-      "place-map": "Boot+End+Reading+RG2+0FL",
-      "event": "every Mon, Thu, Sat",
+      "id":"business-park-hook",
+      "label": "Business park - William Grant & Sons UK",
+      "place": "Parking next to Bartley Way, Hook RG27 9XA",
+      "place-map": "Bartley+Way+Hook+RG27+9XA",
+      "event": "every Tue and Fri",
       "desc": [
-        "Monday - 04:00PM - 08:00PM",
-        "Thursday- 04:00PM - 08:00PM",
-        "Some Saturday - (check on Facebook)"
+        "Tuesday - 11:00AM - 02:00PM",
+        "Friday - 11:00AM - 02:00PM"
       ]
     },
     {
-      "id":"wokingham-market",
-      "label": "Wokingham Market",
-      "place": "Market Place, Wokingham, RG40 1AL",
-      "place-map": "Market+Place+Wokingham+RG40+1AL",
-      "event": "suspended",
+      "id":"abingdon-market",
+      "label": "Abingdon Market place",
+      "place": "Abingdon market place",
+      "place-map": "Abingdon+market+place",
+      "event": "every Mon",
       "desc": [
-        "Suspended until spring 2018"
+        "Monday - 09:00AM - 02:00PM"
       ]
     },
     {
@@ -487,10 +486,10 @@
       "label": "Newbury - Wharf Road",
       "place": "Wharf Road, Newbury",
       "place-map": "Newbury+Wharf+Road",
-      "event": "every Thu",
+      "event": "every Thu and Sat",
       "desc": [
         "Thursday - 09:00AM - 03:00PM",
-        "Some Saturday - (check on Facebook)"
+        "Saturday - 09:00AM - 03:00PM"
       ]
     }
   ],
