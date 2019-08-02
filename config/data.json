@@ -138,7 +138,7 @@
           "description": "Cheese, tomato sauce, mozzarella",
           "description_short": "Cheese, tomato sauce, mozzarella",
           "vegetarian": true,
-          "price": "£ 3.00",
+          "price": "£ 3.50",
           "img": "calzoni.jpg",
           "modal": true
         },
@@ -149,7 +149,7 @@
           "description": "Mushrooms, mozzarella, mix cheese",
           "description_short": "Mushrooms, mozzarella, mix cheese",
           "vegetarian": true,
-          "price": "£ 3.00",
+          "price": "£ 3.50",
           "img": "calzoni.jpg",
           "modal": true
         },
@@ -160,7 +160,7 @@
           "description": "Salame, cheese, mozzarella, tomato sauce",
           "description_short": "Salame, cheese, mozzarella, tomato sauce",
           "vegetarian": false,
-          "price": "£ 3.00",
+          "price": "£ 3.50",
           "img": "calzoni.jpg",
           "modal": true
         }
