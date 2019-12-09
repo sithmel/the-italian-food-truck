@@ -180,6 +180,35 @@ a, a:hover {
   border-radius: 8px;
 }
 
+.quote {
+  font-style: italic;
+  padding: 32px 30px 48px 30px;
+  position: relative;
+}
+
+.quote:before {
+  content: '"';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 80px;
+  display: block;
+  color: $orange;
+  opacity: 0.6;
+  line-height: 1;
+}
+
+.quote:after {
+  content: '"';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 80px;
+  display: block;
+  color: $orange;
+  opacity: 0.6;
+  line-height: 1;
+}
 
 @import 'menu-card.scss';
 @import 'party-card.scss';
