@@ -472,16 +472,6 @@
       ]
     },
     {
-      "id":"abingdon-market",
-      "label": "Abingdon Market place",
-      "place": "Abingdon market place",
-      "place-map": "Abingdon+market+place",
-      "event": "every Mon",
-      "desc": [
-        "Monday - 09:00AM - 02:00PM"
-      ]
-    },
-    {
       "id":"newbury-market",
       "label": "Newbury - Wharf Road",
       "place": "Wharf Road, Newbury",
